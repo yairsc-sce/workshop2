@@ -1,8 +1,8 @@
 ﻿namespace workshop2;
 
-class Program
+public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Random Password Generator!");
 
@@ -32,7 +32,7 @@ class Program
             Console.ReadKey();
         }
 
-        static string GeneratePassword(int length, bool includeUpper, bool includeLower, bool includeNumbers, bool includeSpecial)
+        public static string GeneratePassword(int length, bool includeUpper, bool includeLower, bool includeNumbers, bool includeSpecial)
         {
             const string uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             const string lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
